@@ -3,3 +3,4 @@ data
 logs
 
 .env
+.env.production

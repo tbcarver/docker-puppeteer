@@ -1,8 +1,10 @@
-
+require('dotenv').config();
 const puppeteer = require('puppeteer-core');
+const resolve = require('path').resolve;
 
 (async () => {
-  const browser = await puppeteer.launch({ executablePath: '/usr/lib/chromium/chrome' });
+  const executablePath = resolve(process.env.CHROME_EXECUTABLE_PATH);
+  const browser = await puppeteer.launch({ executablePath });
   const page = await browser.newPage();
 
   console.log('https://developers.google.com/web/');

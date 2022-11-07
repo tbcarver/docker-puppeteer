@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer-core": "^13.5.0"
+    "dotenv": "^16.0.3",
+    "puppeteer-core": "^13.7.0"
   },
   "devDependencies": {
-    "jest": "^29.2.2"
+    "jest": "^29.2.2",
+    "puppeteer": "^13.7.0"
   }
 }
