@@ -1,5 +1,5 @@
 {
-  "name": "scans-to-dibs",
+  "name": "scdocker-puppeteer",
   "version": "1.0.0",
   "description": "",
   "main": "app/index.js",
